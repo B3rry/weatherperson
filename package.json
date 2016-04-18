@@ -1,0 +1,30 @@
+{
+  "name": "bluebot",
+  "version": "0.0.1",
+  "description": "Amida's slackbot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amida-tech/bluebot.git"
+  },
+  "keywords": [
+    "slack",
+    "amida"
+  ],
+  "author": "Amida Technology Solutions",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amida-tech/bluebot/issues"
+  },
+  "homepage": "https://github.com/amida-tech/bluebot#readme",
+  "dependencies": {
+    "cron": "^1.1.0",
+    "dotenv": "^2.0.0",
+    "express": "^4.13.4",
+    "request": "^2.72.0",
+    "slack-node": "^0.1.7"
+  }
+}
