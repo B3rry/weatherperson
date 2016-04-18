@@ -1,12 +1,12 @@
-# bluebot
-**A weather reporting slackbot**
+# weatherman
+**A weather reporting slackbot, ready for heroku deployments**
 
 Currently, this slackbot is used to provide weather reports for a team's #weather channel. All reports are gathered via the excellent forecast.io API
 
 ###Get Started
-Run `npm install` to install.
+Run `npm install` to init.
 
-Run `npm index.js` to run.
+Start using `npm index.js`
 
 
 ###ENV Configuration
