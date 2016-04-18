@@ -1,0 +1,2 @@
+# weatherman
+A slack weatherbot
