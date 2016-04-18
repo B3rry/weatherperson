@@ -3,7 +3,6 @@ var app = express();
 var env = require('dotenv').config();
 var port = process.env.PORT || 3000;
 // END OF ROUTING
-var auth = require('./auth');
 var channels = require('./channels');
 
 app.get('/', function (req, res){
