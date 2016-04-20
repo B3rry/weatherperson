@@ -1,4 +1,4 @@
-# weatherman
+# weatherman🌤⛈☂️
 **A weather reporting slackbot, ready for heroku deployments**
 
 Currently, this slackbot is used to provide weather reports for a team's #weather channel. All reports are gathered via the excellent forecast.io API
