@@ -58,6 +58,10 @@ html {
 h1 {
 	font-family: 'Pacifico', cursive;
 }
+h2 {
+	font-size: 48px;
+	font-weight: 100;
+}
 
 #header {
 	span {
@@ -70,11 +74,9 @@ h1 {
 		padding-left: 12px;
 		box-sizing: border-box;
 	}
-background: rgb(65,192,255); /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(65,192,255,1) 0%, rgba(64,144,255,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(65,192,255,1) 0%,rgba(64,144,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(65,192,255,1) 0%,rgba(64,144,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#41c0ff', endColorstr='#4090ff',GradientType=0 ); /* IE6-9 */
+background: -moz-linear-gradient(top,  rgba(65,192,255,1) 0%, rgba(64,144,255,1) 100%);
+background: -webkit-linear-gradient(top,  rgba(65,192,255,1) 0%,rgba(64,144,255,1) 100%);
+background: linear-gradient(to bottom,  rgba(65,192,255,1) 0%,rgba(64,144,255,1) 100%);
 box-shadow: inset 0 0 26px #3c84eb;
 height: 224px;
 padding-top: 200px;
@@ -118,5 +120,50 @@ padding-top: 200px;
 	}
 
 
+	}
+}
+
+#details {
+	height: 400px;
+}
+
+
+
+#moonMan {
+	background: -moz-linear-gradient(top,  rgba(46,63,148,1) 0%, rgba(84,57,255,1) 100%);
+background: -webkit-linear-gradient(top,  rgba(46,63,148,1) 0%,rgba(84,57,255,1) 100%);
+background: linear-gradient(to bottom,  rgba(46,63,148,1) 0%,rgba(84,57,255,1) 100%);
+height: 400px;
+
+	h2 {
+		color: #fff;
+		text-align: center;
+		padding-top: 90px;
+	}
+
+	span {
+		font-size: 4em;
+		display: block;
+		text-align: center;
+		letter-spacing: .5em;
+		margin-right: -.5em;
+		white-space: nowrap;
+		margin-top: 20px;
+	}
+	p {
+		text-align: center;
+		color: #fff;
+		font-size: 18.4px;
+		font-weight: 300;
+		margin-top: 12.5px;
+
+		a{
+			color: #fff;
+			text-decoration: none;
+			border: 1px solid #8d7beb;
+			padding: 2px 4px;
+			margin-left: 2px;
+			border-radius: 5px;
+		}
 	}
 }
