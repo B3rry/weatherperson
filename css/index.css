@@ -72,7 +72,8 @@ h1 {
     z-index: 10;
     font-size: 3em;
     margin-top: -32px;
-    padding-left: 12px; }
+    padding-left: 12px;
+    box-sizing: border-box; }
   #header h1 {
     text-align: center;
     font-size: 3em;
@@ -109,3 +110,5 @@ h1 {
     transition: all 0.2s ease-in-out; }
     #deploy img:hover {
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+    #deploy img:active {
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }

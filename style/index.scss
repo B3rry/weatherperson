@@ -64,6 +64,7 @@ h1 {
 		font-size: 3em;
 		margin-top: -32px;
 		padding-left: 12px;
+		box-sizing: border-box;
 	}
 background: rgb(65,192,255); /* Old browsers */
 background: -moz-linear-gradient(top,  rgba(65,192,255,1) 0%, rgba(64,144,255,1) 100%); /* FF3.6-15 */
@@ -111,6 +112,9 @@ padding-top: 200px;
 
 	&:hover {
 		box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	}
+	&:active {
+		box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 	}
 
 
