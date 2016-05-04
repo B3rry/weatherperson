@@ -65,7 +65,7 @@ h1 {
 		width: 100%;
 		text-align: center;
 		z-index: 10;
-		font-size: 3em;
+		font-size: 48px;
 		margin-top: -32px;
 		padding-left: 12px;
 		box-sizing: border-box;
@@ -95,7 +95,7 @@ padding-top: 200px;
 		color: #f9f9f9;
 		text-shadow: 0px 0px 2px #3c84eb;
 		margin-top: 29px;
-		font-size: 1.15em;
+		font-size: 18.4px;
 		a {
 			color: #f9f9f9;
 		}
@@ -113,11 +113,7 @@ padding-top: 200px;
 	box-shadow: 0px -2px 0px rgba(0,0,0,0.02);
 	border-radius: 6px;
 	transition: all 0.2s ease-in-out;
-
 	&:hover {
-		box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-	}
-	&:active {
 		box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 	}
 
