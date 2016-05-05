@@ -2302,11 +2302,11 @@ h2 {
     position: absolute;
     left: 10%;
     top: 120px;
-    height: 5em; }
+    height: 80px; }
   #header #cloudRight {
     position: absolute;
     bottom: -30px;
-    height: 6em;
+    height: 96px;
     right: 0px; }
   #header span {
     position: absolute;
