@@ -1,3 +1,5 @@
+@import 'animate';
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -64,6 +66,36 @@ h2 {
 }
 
 #header {
+	position: relative;
+	#umbrella {
+		position: relative;
+		padding-left: 26px;
+		margin: -10px auto -30px;
+		width: 50px;
+		display: block;
+		-ms-transform: rotate(21deg); /* IE 9 */
+    -webkit-transform: rotate(21deg); /* Safari */
+    transform: rotate(21deg);
+    z-index: 100;
+	}
+	#sun {
+		position: absolute;
+		right: 20%;
+		top: 10px;
+		height: 6em;
+	}
+	#cloudLeft {
+		position: absolute;
+		left: 10%;
+		top: 120px;
+		height: 5em;
+	}
+	#cloudRight {
+		position: absolute;
+		bottom: -30px;
+		height: 6em;
+		right: 0px;
+	}
 	span {
 		position: absolute;
 		width: 100%;
