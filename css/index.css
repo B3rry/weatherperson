@@ -2359,11 +2359,22 @@ h2 {
 
 #details {
   min-height: calc(50vh - 24px); }
+  #details ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around; }
+    #details ul li {
+      display: inline-block;
+      text-align: center;
+      width: 30%;
+      margin-bottom: 60px; }
+      #details ul li img {
+        height: 4em; }
 
 #moonMan {
-  background: -moz-linear-gradient(top, #2e3f94 0%, #5439ff 100%);
-  background: -webkit-linear-gradient(top, #2e3f94 0%, #5439ff 100%);
-  background: linear-gradient(to bottom, #2e3f94 0%, #5439ff 100%);
+  background: -moz-linear-gradient(top, #162b94 0%, #5439ff 100%);
+  background: -webkit-linear-gradient(top, #162b94 0%, #5439ff 100%);
+  background: linear-gradient(to bottom, #162b94 0%, #5439ff 100%);
   height: 400px; }
   #moonMan h2 {
     color: #fff;
