@@ -2279,8 +2279,8 @@ h2 {
   background: -webkit-linear-gradient(top, #41c0ff 0%, #4090ff 100%);
   background: linear-gradient(to bottom, #41c0ff 0%, #4090ff 100%);
   box-shadow: inset 0 0 26px #3c84eb;
-  height: calc(100vh - 200px);
-  padding-top: 190px;
+  height: 50vh;
+  padding-top: 20%;
   box-sizing: border-box; }
   #header #umbrella {
     position: relative;
@@ -2358,7 +2358,7 @@ h2 {
       box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
 
 #details {
-  height: 400px; }
+  min-height: calc(50vh - 24px); }
 
 #moonMan {
   background: -moz-linear-gradient(top, #2e3f94 0%, #5439ff 100%);
